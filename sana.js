@@ -1,22 +1,31 @@
 //imports
-const { client } = require('discord.js');
-const sana = new client;
+const discord = require('discord.js');
+const sana = new discord.Client()
 const config = require('./config.json');
 const ms = require('ms')
-const status = ['.h for help', 'luv u!', 'made by michal#1336', `in ${client.guilds.cache.size} servers!`];
+const status = ['.h for help', 'luv u!', 'made by michal#1336'];
+const { readdirSync, read } = require('fs');
+const { join } = require('path')
 
 // mongoose setup
 const mongoose = require('mongoose');
-await mongoose.connect(config.mongokey, {
+mongoose.connect(config.mongokey, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
   useCreateIndex: true
-}).then(console.log(`connected to ${sana.user.tag}'s mongoDB database!`));
+}).then(console.log(`connected to sana's mongoDB database!`));
 
 
 
-// file setup
+
+
+// files setup
+
+sana.commands = new discord.Collection();
+const commandFolders = readdirSync('./commands');
+const Timeout = new discord.Collection();
+
 
 for (const folder of commandFolders) {
     const commandFiles = readdirSync(`./commands/${folder}`).filter(file => file.endsWith('.js'));
@@ -34,7 +43,7 @@ sana.on("message", async (message) => {
     if (message.author.sana) return;
     if (message.channel.type === 'dm') return; 
 
-
+    const prefix = ".";
 
 
     if (message.content.startsWith(prefix)) {
