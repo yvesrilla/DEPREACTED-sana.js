@@ -6,3 +6,11 @@ well i wont be clearly saying how to host sana but. to host sana u need a good p
 
 # sana resources
 https://mongodb.com https://discord.com/developers/applications https://nodejs.org/en
+
+# sanas support server
+  https://discord.gg/NWNN3WAHEH
+  
+  
+# fyi's:
+  sana is still in progress so proceed with making your own commands 😼
+  
