@@ -7,6 +7,7 @@ module.exports={
         //embed creation
 
         const help = new Discord.MessageEmbed()
+        .setAuthor(`${message.author.id}`, message.author.displayAvatarURL({ dynamic: true }))
         .setDescription("**sana's help panel!**"
         +"\n welcome to my help panel, here you'll see all of my available commands!"
         +"\n"
@@ -21,6 +22,7 @@ module.exports={
         +"\n"
         +"\n __trading card commands__"
         +"\n in the **works**!")
+        
 
         message.lineReply({help})
     }
