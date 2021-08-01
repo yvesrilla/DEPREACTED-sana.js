@@ -14,5 +14,7 @@ module.exports = {
         +"\n sana (bot) was created by michal#1336"
         +"\n [discord.js](discord.js.org) helps sana to connect to discord!")
 
+    message.lineReplyNoMention(about)
+
   }
 }
