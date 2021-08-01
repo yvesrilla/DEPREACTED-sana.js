@@ -1,4 +1,4 @@
 {
   "token": "PASTE_YOUR_TOKEN_HERE",
-  "mongokey": "PASTE_YOUR_MONGO_URL_STRING"
+  "mongokey": "PASTE_YOUR_MONGO_URL_STRING_HERE"
 }
