@@ -1,0 +1,19 @@
+{
+  "name": "sana.js",
+  "version": "0.1.0",
+  "description": "a cute discord.js bot <3 with music, levelling and a kpop trading card system!",
+  "main": "sana.js",
+  "scripts": {
+    "test": "node sana.js"
+  },
+  "author": "yvesrilla",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "canvacord": "^5.2.3",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.13.5",
+    "ms": "^2.1.3"
+  }
+}
