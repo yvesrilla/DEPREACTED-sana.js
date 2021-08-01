@@ -13,4 +13,6 @@ https://mongodb.com https://discord.com/developers/applications https://nodejs.o
   
 # fyi's:
   sana is still in progress so proceed with making your own commands 😼
+
+# oh and stan twice <3
   
