@@ -1,18 +1,5 @@
-# sana!
-a cute [discord.js](https://discord.js.org/#/) bot &lt;3 with music, levelling and a kpop trading card system!
+THIS IS DEPREACTED!!
 
-# how to host sana
-well i wont be clearly saying how to host sana but. to host sana u need a good pc to run ffmpeg, youtube-dl and mongodb. i am not telling u how to install any of those. u also need node.js, well obviously cuz thats the javascript. lmao. I wont be telling you **how** to properly host sana due to schemas n stuff.
-
-# sana resources
-https://mongodb.com https://discord.com/developers/applications https://nodejs.org/en
-
-# sanas support server
-  https://discord.gg/NWNN3WAHEH
-  
-  
-# fyi's:
-  sana is still in progress so proceed with making your own commands 😼
-
-# oh and stan twice <3
-  
+IF YOU WANT TO USE THIS YOU MUST CHANGE THE BOTS FILES.
+THE REASON WHY IT IS DEPREACTED IS BECAUSE OF DISCORD.JS V13.
+ALOT OF THE CODE ISN'T SUPPORTED BY DJS V13 WHICH MAKES IT DEPREACTED
